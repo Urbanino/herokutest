@@ -111,6 +111,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+ALLOWED_HOSTS = ['https://testherurban.herokuapp.com/', '127.0.0.1']
 
 LOGIN_REDIRECT_URL = '/'
 
